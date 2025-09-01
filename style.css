@@ -1,7 +1,10 @@
-.container{
+*{
+    margin: auto;
     width: 80%;
-    margin: 0 auto;
+    box-sizing: border-box;
+
 }
+
 .nav{
     display: flex;
     justify-content: center;
@@ -15,6 +18,11 @@
     align-items: flex-end;
     text-align: center;
     padding: 1rem 0;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  
 }
 .art{
     display: grid;
@@ -70,3 +78,4 @@
     width: 200px;
     height: 20px;
 }
+
